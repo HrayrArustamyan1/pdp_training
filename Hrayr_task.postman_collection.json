@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "022863ab-4d04-4b90-9d41-92a669b4772a",
+		"name": "Hrayr_task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Bing",
+			"item": [
+				{
+					"name": "Search_Erevan",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.bing.com/search?q=Erevan",
+							"protocol": "https",
+							"host": [
+								"www",
+								"bing",
+								"com"
+							],
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Erevan"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search_Goris",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.bing.com/search?q=Goris",
+							"protocol": "https",
+							"host": [
+								"www",
+								"bing",
+								"com"
+							],
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Goris"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search_Kapan",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.bing.com/search?q=Kapan",
+							"protocol": "https",
+							"host": [
+								"www",
+								"bing",
+								"com"
+							],
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Kapan"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search_Vanadzor",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.bing.com/search?q=Vanadzor",
+							"protocol": "https",
+							"host": [
+								"www",
+								"bing",
+								"com"
+							],
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Vanadzor"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
